@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0-beta",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrDark",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "croxydb": "^0.0.7",
+    "deasync": "^0.1.21",
+    "discord-music-player": "^7.0.1",
+    "discord.js": "^12.0.2",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "^0.0.1-security",
+    "lyrics-finder": "^21.7.0",
+    "moment": "^2.29.1",
+    "opusscript": "^0.0.8",
+    "ytdl-core": "^4.5.0"
+  }
+}
