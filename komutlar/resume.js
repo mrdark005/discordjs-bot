@@ -10,7 +10,8 @@ exports.conf = {
     guildonly: false,
     aliases: [],
     permlevel: 0,
-    onyVoice:true
+    onyVoice:true,
+    kategori:"müzik"
 }
 exports.help = {
     name: 'devam',

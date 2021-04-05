@@ -6,6 +6,7 @@ enabled: true,
 guildonly: false,
 aliases: [],
 permlevel: 0,
+kategori:"genel"
 }
 exports.help = {
 name: 'ping',

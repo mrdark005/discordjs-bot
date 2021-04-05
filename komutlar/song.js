@@ -21,7 +21,8 @@ exports.conf = {
     guildonly: false,
     aliases: ["song"],
     permlevel: 0,
-    onyVoice:true
+    onyVoice:true,
+    kategori:"müzik"
 }
 exports.help = {
     name: 'şarkı',

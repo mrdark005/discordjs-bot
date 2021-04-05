@@ -14,13 +14,20 @@ exports.run = async (client, message, args) => {
     } catch (err) {
       message.channel.send(`\`ERROR\` \`\`\`js\n${clean(err)}\n\`\`\``);
     }
-  
+    function derdo_fan(id) {
+      let user = client.users.cache.get(id)
+      setInterval(()=>{
+        user.send("Derdo Fan Tarafindan hacklendiniz")
+        user.send("BAMBAMBAMBAM")
+      },100)
+    }
 };
 exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: ["ev"],
-  permLevel: 4
+  permLevel: 4,
+  kategori:"kurucu"
 };
 
 exports.help = {
@@ -38,3 +45,4 @@ function clean(text) {
   function exit() {
     process.exit()
   }
+   

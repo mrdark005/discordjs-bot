@@ -8,7 +8,8 @@ exports.conf = {
     guildonly: false,
     aliases: ["skip"],
     permlevel: 0,
-    onyVoice:true
+    onyVoice:true,
+    kategori:"müzik"
 }
 exports.help = {
     name: 'geç',

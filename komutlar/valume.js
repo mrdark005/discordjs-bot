@@ -12,7 +12,8 @@ exports.conf = {
     guildonly: false,
     aliases: ["valume"],
     permlevel: 0,
-    onyVoice:true
+    onyVoice:true,
+    kategori:"müzik"
 }
 exports.help = {
     name: 'ses',

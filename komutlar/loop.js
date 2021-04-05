@@ -24,7 +24,8 @@ exports.conf = {
     guildonly: false,
     aliases: ["loop"],
     permlevel: 0,
-    onyVoice:true
+    onyVoice:true,
+    kategori:"müzik"
 }
 exports.help = {
     name: 'döngü',

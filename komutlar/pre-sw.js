@@ -32,7 +32,8 @@ exports.conf = {
     enabled: true,
     guildonly: false,
     aliases: [],
-    permlevel: 0
+    permlevel: 0,
+    kategori:"kurucu"
 }
 exports.help = {
     name: 'premium-ekle',

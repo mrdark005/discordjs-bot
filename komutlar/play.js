@@ -20,7 +20,8 @@ exports.conf = {
   guildOnly: false,
   aliases: ['play', 'çal','oynat'],
   permLevel: 3,
-  onyVoice:true
+  onyVoice:true,
+  kategori:"müzik"
 };
 
 exports.help = {
